@@ -13,4 +13,4 @@ eureka:
     fetch-registry: false
     service-url:
       ##defaultZone: http://localhost:${server.port}/eureka/
-      defaultZone: http://172.17.64.10:${server.port}/eureka/
+      defaultZone: http://tcc-discovery.herokuapp.com/eureka/
